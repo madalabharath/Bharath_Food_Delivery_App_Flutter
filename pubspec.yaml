@@ -1,0 +1,209 @@
+name: bharath_food_delivery_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  intl: ^0.18.0
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/logo.png
+    - assets/onboard1.jpg
+    - assets/onboard2.jpg
+    - assets/onboard3.png
+    - assets/login.png
+    - assets/signup.jpg
+    - assets/bharath.jpg
+    - assets/chicken.jpg
+    - assets/tiffins.jpg
+    - assets/biryani.jpg
+    - assets/burgers.jpg
+    - assets/coffee.jpg
+    - assets/Fish.jpg
+    - assets/friedrice.jpg
+    - assets/icecreams.jpg
+    - assets/juices.jpg
+    - assets/noodles.jpg
+    - assets/Panner.jpg
+    - assets/pastries.jpg
+    - assets/pizzas.jpg
+    - assets/sandwich.jpg
+    - assets/shakes.jpg
+    - assets/Chicken/chicken_kebab.jpg
+    - assets/Chicken/chicken_stew.jpg
+    - assets/Chicken/chicken_tikka.jpg
+    - assets/Chicken/chicken_wings.jpg
+    - assets/Chicken/fried_chicken.jpg
+    - assets/Chicken/grilled_chicken.jpg
+    - assets/Chicken/roast_chicken.jpg
+    - assets/Biryani/chicken_biryani.jpg
+    - assets/Biryani/mutton_biryani.jpg
+    - assets/Biryani/veg_biryani.jpg
+    - assets/Biryani/paneer_biryani.jpg
+    - assets/Biryani/egg_biryani.jpg
+    - assets/Biryani/fish_biryani.jpg
+    - assets/Fish/grilled_fish.jpg
+    - assets/Fish/fish_curry.jpg
+    - assets/Fish/fish_fry.jpg
+    - assets/Fish/fish_tikka.jpg
+    - assets/Fish/fish_masala.jpg
+    - assets/Fish/steamed_fish.jpg
+    - assets/Fish/baked_fish.jpg
+    - assets/Paneer/paneer_tikka.jpg
+    - assets/Paneer/paneer_bhurji.jpg
+    - assets/Paneer/paneer_makhani.jpg
+    - assets/Paneer/chili_paneer.jpg
+    - assets/Paneer/palak_paneer.jpg
+    - assets/Paneer/shahi_paneer.jpg
+    - assets/Fried_Rice/veg_fried_rice.jpg
+    - assets/Fried_Rice/chicken_fried_rice.jpg
+    - assets/Fried_Rice/egg_fried_rice.jpg
+    - assets/Fried_Rice/prawn_fried_rice.jpg
+    - assets/Fried_Rice/pineapple_fried_rice.jpg
+    - assets/Fried_Rice/schezwan_fried_rice.jpg
+    - assets/Burgers/veg_burger.jpg
+    - assets/Burgers/chicken_burger.jpg
+    - assets/Burgers/cheese_burger.jpg
+    - assets/Burgers/chicken_mayo_burger.jpg
+    - assets/Burgers/spicy_veg_burger.jpg
+    - assets/Burgers/double_patt_burger.jpg
+    - assets/Pizzas/margherita_pizza.jpg
+    - assets/Pizzas/pepperoni_pizza.jpg
+    - assets/Pizzas/veg_pizza.jpg
+    - assets/Pizzas/bbq_chicken_pizza.jpg
+    - assets/Pizzas/mushroom_pizza.jpg
+    - assets/Pizzas/cheese_burst_pizza.jpg
+    - assets/Pastries/chocolate_pastry.jpg
+    - assets/Pastries/vanilla_pastry.jpg
+    - assets/Pastries/strawberry_pastry.jpg
+    - assets/Pastries/black_forest_pastry.jpg
+    - assets/Pastries/coffee_pastry.jpg
+    - assets/Pastries/fruit_pastry.jpg
+    - assets/Pastries/lemon_pastry.jpg
+    - assets/Pastries/caramel_pastry.jpg
+    - assets/Coffee/espresso.jpg
+    - assets/Coffee/cappuccino.jpg
+    - assets/Coffee/latte.jpg
+    - assets/Coffee/mocha.jpg
+    - assets/Coffee/americano.jpg
+    - assets/Coffee/flat_white.jpg
+    - assets/Coffee/macchiato.jpg
+    - assets/Ice_Creams/vanilla_ice_cream.jpg
+    - assets/Ice_Creams/chocolate_ice_cream.jpg
+    - assets/Ice_Creams/strawberry_ice_cream.jpg
+    - assets/Ice_Creams/butterscotch_ice_cream.jpg
+    - assets/Ice_Creams/pistachio_ice_cream.jpg
+    - assets/Ice_Creams/mango_ice_cream.jpg
+    - assets/Ice_Creams/tutti_frutti_ice_cream.jpg
+    - assets/Ice_Creams/coconut_ice_cream.jpg
+    - assets/Tiffins/idli.jpg
+    - assets/Tiffins/dosa.jpg
+    - assets/Tiffins/vada.jpg
+    - assets/Tiffins/pongal.jpg
+    - assets/Tiffins/uttapam.jpg
+    - assets/Tiffins/poori.jpg
+    - assets/Shakes/chocolate_shake.jpg
+    - assets/Shakes/strawberry_shake.jpg
+    - assets/Shakes/mango_shake.jpg
+    - assets/Shakes/banana_shake.jpg
+    - assets/Shakes/vanilla_shake.jpg
+    - assets/Shakes/pineapple_shake.jpg
+    - assets/Shakes/oreo_shake.jpg
+    - assets/Juice/orange_juice.jpg
+    - assets/Juice/mango_juice.jpg
+    - assets/Juice/apple_juice.jpg
+    - assets/Juice/carrot_juice.jpg
+    - assets/Juice/watermelon_juice.jpg
+    - assets/Juice/pineapple_juice.jpg
+    - assets/Noodles/veg_noodles.jpg
+    - assets/Noodles/chicken_noodles.jpg
+    - assets/Noodles/chow_mein.jpg
+    - assets/Noodles/schezwan_noodles.jpg
+    - assets/Noodles/egg_noodles.jpg
+    - assets/Sandwich/veg_sandwich.jpg
+    - assets/Sandwich/grilled_sandwich.jpg
+    - assets/Sandwich/cheese_sandwich.jpg
+    - assets/Sandwich/toast_sandwich.jpg
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
